@@ -7,3 +7,6 @@ https://medium.com/@kengz/soft-actor-critic-for-continuous-and-discrete-actions-
 
 Some backgrounds of multi-agent learning
 https://bair.berkeley.edu/blog/2018/12/12/rllib/
+
+Some questions:
+What is Advantage Function?
