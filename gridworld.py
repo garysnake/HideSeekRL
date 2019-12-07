@@ -3,13 +3,6 @@ from env import EnvSpec, Env
 from enum import Enum
 
 class GridWorld(Env):
-    class Action(Enum):
-        STAY = 0
-        UP = 1
-        RIGHT = 2
-        DOWN = 3
-        LEFT = 4
-
     def __init__(self, numX, numY, numHider, numSeeker, hideVis, seekVis, eps_len):
         self.env_spec = EnvSpec(numX * numY, 5, 0.9)
         self.eps_len = eps_len
@@ -25,6 +18,25 @@ class GridWorld(Env):
         self.seekVis = seekVis
         self.world = np.zeros((self.numX, self.numY))
         self.init_world()
+
+    def print_world(self):
+        print("\nBegin GridWorld")
+        print("-----------------------------------")
+        for i in range(self.numX):
+            item = ""
+            for j in range(self.numY):
+                obj = self.world[i][j]
+                if obj == 0:
+                    item += ". "
+                elif obj == 1:
+                    item += "W "
+                elif obj == 2:
+                    item += "H "
+                else:
+                    item += "S "
+            print(item)
+        print("-----------------------------------")
+        print("End GridWorld\n")
 
     def reset(self):
         self.step_count = 0
@@ -48,7 +60,12 @@ class GridWorld(Env):
             for j in range(self.numY):
                 if i == 0 or i == self.numX - 1 or j == 0 or j == self.numY - 1:
                     self.world[i][j] = 1
-                self.world[i][j] = 0
+                else:
+                    self.world[i][j] = 0
+        # Extra walls
+        wall_list = [[2,2], [4,4], [6,6]]
+        for wall in wall_list:
+            self.world[tuple(wall)] = 1
         def get_rand_coord():
             # Utility to find random agent placement
             x_coord = np.random.randint(1, self.numX - 1)
@@ -77,31 +94,35 @@ class GridWorld(Env):
         """
         if agent_type =="hide":
             enemy_type = 3
+            list_agents = self.list_hiders
         else:
             enemy_type = 2
+            list_agents = self.list_seekers
         enemies_spotted = 0
         agent_states = []
         # Get visibility for each agent
-        for a in self.list_agents:
+        for a in list_agents:
             agent_world = np.copy(self.world)
             for x in range(self.numX):
                 for y in range(self.numY):
-                    if (x < a[0] - self.agentVis or x > a[0] + self.agentVis) \
-                        or (y < a[1] - self.agentVis or y > a[1] + self.agentVis):
+                    if (x < a[0] - agentVis or x > a[0] + agentVis) \
+                        or (y < a[1] - agentVis or y > a[1] + agentVis):
                         agent_world[x][y] = 4
-            self.patchShadow(a[0], a[1], self.agentVis, agent_world)
+            self.patchShadow(a[0], a[1], agentVis, agent_world)
             agent_states.append(agent_world)
         # Stack visibilities into common agent world
-        agent_common_view = np.ones(self.world.shape).fill(4)
+        agent_common_view = np.ones((self.world.shape))
+        agent_common_view.fill(4)
         for i in range(self.numX):
             for j in range(self.numY):
                 for vis_state in agent_states:
                     if vis_state[i][j] != 4:
                         agent_common_view[i][j] = vis_state[i][j]
                         break
+        print("Common view for", agent_type, "\n", agent_common_view)
         # get list of states with agent position in one-hot form
         agent_states = []
-        for a in self.list_agents:
+        for a in list_agents:
             agent_state = np.zeros(self.numX * self.numY * self.numO)
             for i in range(self.numX):
                 for j in range(self.numY):
@@ -111,7 +132,7 @@ class GridWorld(Env):
                         idx = i * self.numY * self.numO + j * self.numO + 5
                     else:
                         idx = i * self.numY * self.numO + j * self.numO + agent_common_view[i][j]
-                    agent_state[idx] = 1
+                    agent_state[int(idx)] = 1
             agent_states.append(agent_state)
         if agent_type == "hide":
             reward = 1 if enemies_spotted == 0 else -1
@@ -184,26 +205,29 @@ class GridWorld(Env):
         """
         if agent_type == "hide":
             list_agents = self.list_hiders
+            agent_type = 2
         else:
             list_agents = self.list_seekers
+            agent_type = 3
         for agent_idx in range(len(list_agents)):
             action = agent_actions[agent_idx]
             start_coord = list_agents[agent_idx]
             dest_coord = list(start_coord)
-            if action == Action.STAY:
+            if action == 0:
                 pass
-            elif action == Action.UP:
-                dest_coord[1] += 1
-            elif action == Action.RIGHT:
-                dest_coord[0] += 1
-            elif action == Action.DOWN:
-                dest_coord[1] -= 1
-            elif action == Action.LEFT:
+            elif action == 1:
                 dest_coord[0] -= 1
+            elif action == 2:
+                dest_coord[1] += 1
+            elif action == 3:
+                dest_coord[0] += 1
+            elif action == 4:
+                dest_coord[1] -= 1
+
             if self.can_move(dest_coord):
                 self.world[tuple(start_coord)] = 0
-                self.world[tuple(dest_coord)] = 2
-                list_agents[agent_idx] = dest_coord
+                self.world[tuple(dest_coord)] = agent_type
+                list_agents[agent_idx] = list(dest_coord)
 
     def step(self, hider_actions, seeker_actions):
         """
