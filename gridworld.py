@@ -85,7 +85,8 @@ class GridWorld_diag(Env):
                 else:
                     self.world[i][j] = 0
         # Extra walls
-        wall_list = [[4,4], [6,6]]
+        # wall_list = [[4,4], [6,6]]
+        wall_list = [[3,3],[4,3],[5,3],[6,3],[8,8],[7,8],[6,8],[5,8]]
         for wall in wall_list:
             self.world[tuple(wall)] = 1
         def get_rand_coord():

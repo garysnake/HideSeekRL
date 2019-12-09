@@ -5,12 +5,12 @@ from matplotlib import pyplot as plt
 
 if __name__ == "__main__":
     # VARIABLES
-    num_epochs = 1 # number of epochs
+    num_epochs = 2 # number of epochs
     N_EPISODES = 750 # number of episodes per epoch
-    episode_length = 200
+    episode_length = 300
     num_x = 12
     num_y = 12
-    num_hiders = 1
+    num_hiders = 2
     num_seekers = 1
     hide_vis = 3
     seek_vis = 3
@@ -19,8 +19,8 @@ if __name__ == "__main__":
 
     # Change below variables to test different algorithms    
     # algorithm_to_test = random_baseline, REINFORCE, SarsaLambda, actor_critic
-    algorithm_to_test = actor_critic
-    algorithm_name = "actor-critic_2_walls" + "_%d-%d" % (num_hiders, num_seekers)
+    algorithm_to_test = REINFORCE
+    algorithm_name = "reinforce_big_walls" + "_%d-%d" % (num_hiders, num_seekers)
 
     # algorithm_name = "actor-critic_"
 

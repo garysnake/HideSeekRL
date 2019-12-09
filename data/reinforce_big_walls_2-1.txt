@@ -1,0 +1,601 @@
+
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . H . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . H . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W . . W . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . H . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W . . W . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . S W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . H . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . . . . W ,W S . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W S . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W S . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . H . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W S . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W S . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W S . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W S . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W S . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W S . W . . . . W . . W ,W . . W . . . . W H . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H H W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H H W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H H W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W S . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W S . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W S . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . S W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . S W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . S W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . S W . . . . W H . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W S . W . . . . W . . W ,W . . W . . . . W H . W ,W . . . . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W S . W . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . W . . W ,W . . W . . . . W H . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . W . . W ,W . . W . . . . W H . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . S W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . S W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W H H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . S W . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . S . . . . W H . W ,W . . . . . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H . W ,W . . . S . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . S . . . . W . H W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . S . . . . H H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . S . . . . . . H W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . S . . . . . H . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . S . . . . . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . S . . . . . . . W ,W . . . . . . . H . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . S . . . H . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W H . W ,W . . . . S . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . H . . W ,W . . . . . S . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . S . H . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . H W ,W . . . . . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . H W ,W . . . . . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . W . H W ,W . . . . . S . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H . W ,W . . . . S H . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . S . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . H . W . . W ,W . . . . . . . W . . W ,W . . . . S . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . H . W . . W ,W . . W . . . . W . . W ,W . . . . S . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . H W . . W ,W . . . S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . S . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . S . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . S . H W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . S . . . W . . W ,W . . . . . . H . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . S . H . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . . . . W ,W . . . S . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H . . . W ,W . . . . S . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . . . . W ,W . . . . S . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . S . . . . . W ,W . . . . . H . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . S . . . . W ,W . . . . . H . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . S . . W . . W ,W . . . . . . H . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . S . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . S . . W . . W ,W . . . . . . . . . H W ,W . . . . . H . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . H W ,W . . . . S . . . . . W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . S . W . . W ,W . . . . . . . . . H W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . S . W . . W ,W . . . . . . . W . . W ,W . . . . H . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . H . S . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . S . W . . W ,W . . . H . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . S . W . . W ,W . . . H . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . S . . . . W ,W . . . H . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . H . S . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . H . S . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . H S . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . S . H . W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . S . W . . W ,W . . . . . . . . H . W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . S . . H . W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . S W . . W ,W . . . H . . . H . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . S . . . W ,W . . . . . . . H . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . . . . W ,W . . . . . . . S H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . . . . W ,W . . . . . . . S H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . . . . W ,W . . . . . . . S H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . S . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . S . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . . . H W ,W . . . . . . . S . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . W . H W ,W . . . . . . . . . . W ,W . . . . . . . S . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . H . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . H W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . H . W . H W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . H . W . . W ,W . . W . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . S . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . S . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . H . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . S . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . H . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . S . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . H . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . S . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . S . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W H . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . S . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . H W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . S . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . H W ,W . . . . . S . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W H . W ,W . . . . . . . . . . W ,W . . . . . S . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . H . . W ,W . . . . . S . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W H . W ,W . . . . S . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W H . W ,W . . . . S . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . S . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . S . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . S . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . W . . W ,W . . . . S . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . S . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . S . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . H . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . S . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . S . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . S . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . H . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . S . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . H . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . S . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . S . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W . . . . W . . W ,W . . . . S . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . S . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . S . . W . H W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W S . . . W . H W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W . . . . W . . W ,W . . . S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . W . . W ,W . . W . S . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . S . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . S . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . S . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . S . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . S . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . H . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . H . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W S . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . H . W ,W . . W . S . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . S . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . S . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . S . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . S W . H W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . S W . H W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . S W . . W ,W . . W . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . S W H . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . S . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . S W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . S W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . S . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W H . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . S . W H . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W . . . . W . . W ,W . . . . . S . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . S . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . S . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . S W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . H . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . S W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . H . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . S W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . S . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . H . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . S . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . H . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . S . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . H . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . S . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . H . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . S H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . H . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . S . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . S W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . H . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . S W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . H . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . S W ,W . . . . . . . H . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . H . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H . . . W ,W . . . . . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . H . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . . . . W ,W . . . . . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . H . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . . . . W ,W . . . . . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . H . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . . . . W ,W . . . . . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . H . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . H . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . H . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . S W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . H . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . S W ,W . . . H . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . H . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . H . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W H . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . H . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . H . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . . . . W ,W . . . . . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . H . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . H . . . . . . W ,W . . . . . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . H . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . H . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . H . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . H . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . H . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . H . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . H . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . H . . . . . . W ,W . . . . . . . S . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . W . . W ,W . . . H . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H S W . . W ,W . . . . H . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . S . . W ,W . . . . . H . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . . S . W ,W . . . . . H . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H . S . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W H . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . H . . . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . H . . . . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . H . . . H W . . W ,W . . . . . . . . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . H . . . . W . . W ,W . . . . . . . . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . H . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . H . . . . S . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . H . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . S . W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . H W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . S . W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . H . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . H . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . S . W ,W . . . . . H . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H . S . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H S . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . H W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H . . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . H . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . H . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . H . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . H W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . H . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . H W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . . . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W H . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . W . . W ,W . . . . . . . . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . S W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . S W ,W . . . . . . H . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . H . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W S . W ,W . . . . . . . . . . W ,W . . . . . . . H . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . H . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . S . W ,W . . . . . . H . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . H . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . . S . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . H . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . S . W ,W . . . . H . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . H . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . H . . . . . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . H . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . S W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . H . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . . S . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . H . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . S . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . H . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . S . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . H . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . W . . W ,W . . . . . . . S . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . H . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . H . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . H . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . H . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W H . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . S W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . H . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . H . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . S . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . H . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . S . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . H . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . H . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . S . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . H . . W . . W ,W . . W . . . . W . . W ,W . . . . . H . W . . W ,W . . . . . . . W . . W ,W . . . . . . . S . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . H . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . S . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W H . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . S . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W H . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . S . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W H . . . W . . W ,W . . . . . H . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . S . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W H . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . S . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W H . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . S . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W H . . . W . . W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . S . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W H . . . W . . W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . S . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . H . W . . W ,W . . W H . . . W . . W ,W . . . . . . . W . . W ,W . . S . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . H H . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . S . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . H . H W . . W ,W . . S . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . S W . . . . W . . W ,W . . . . H . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W S . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . H . H W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . S W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . S . . . . W . . W ,W . . . . . H . W . . W ,W . . . . . . . . . . W ,W . . . . . . . H . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . S . . H . W . . W ,W . . . . . . . H . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . S . . . H . . . W ,W . . . . . . . H . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . S . . . . H . . . W ,W . . . . . . H . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W S . . . . . . W . . W ,W . . . . . H . . . . W ,W . . . . . . . H . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . H . W . . W ,W . S . . . . . . . . W ,W . . . . . . . H . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . H . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . S . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . . . . W ,W . S . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . . . . W ,W . S . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W S . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . H . . W ,W . S . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . H W . . W ,W . S . . . . . . . . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . H . . W ,W . S . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . S . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . . . . . H W . . W ,W . . S . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . S . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . S . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . H . W . . W ,W . . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . S . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . H W . . W ,W . . . . . . . W . . W ,W . S . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . H . W . . W ,W S . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . H . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W S . W . . H . W . . W ,W . . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . H . . W . . W ,W S . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W H . . . W . . W ,W S . . . . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . . H W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W S . W . . . . W . . W ,W . . . H . . . W . . W ,W . . . . . . . W . . W ,W . . . . . . . . H . W ,W . . . . . . . . . . W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W S . W . . . . W . . W ,W . . . . . . . W . . W ,W . . . H . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . S . . . . . W . . W ,W . . H . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . H . . . . W . . W ,W . S . . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . H . . . . W . . W ,W . . S . . . . W . . W ,W . . . . . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
+Episode 0
+W W W W W W W W W W W W ,W . . . . . . . . . . W ,W . . . . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . . . . W ,W . . W . . . . W . . W ,W . . W . . . . W . . W ,W . . H . . . . W . . W ,W . . . . . . . W . . W ,W . . . S . . . . . . W ,W . . . . . . . . . H W ,W W W W W W W W W W W W 
