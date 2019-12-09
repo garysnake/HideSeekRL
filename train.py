@@ -1,4 +1,4 @@
-from gridworld import GridWorld_hybrid_state, GridWorld_one_hot
+from gridworld import GridWorld_hybrid_state, GridWorld_coord
 import numpy as np
 import torch
 import torch.nn as nn
@@ -59,80 +59,115 @@ def random_baseline(grid_world, num_episodes):
         G0s_seek.append(G_seek)
     return G0s_hide, G0s_seek
 
-# --- Code for running SARSA --- (TODO)
+# --- Code for running SARSA --- (TODO: not correct yet)
 
 class StateActionFeatureVector():
     def __init__(self, dim_list, num_actions):
-        self.dim_list = dim_list
-        self.dim_list.append(num_actions)
-        self.feature_vector_length = np.prod(dim_list) * num_actions
-
-    def find_flat_vector_coord(self, s, a):
-        vector_coord = list(s) + [a]
-        index_padding = self.feature_vector_length
-        index = 0
-        for i in range(len(vector_coord)):
-            index_padding /= self.dim_list[i]
-            index += vector_coord[i] * index_padding
-        return int(index)
+        self.state_dims = list(dim_list)
+        self.num_actions = num_actions
+        self.state_dims.append(num_actions)
+        self.feature_vector_length = np.prod(self.state_dims)
 
     def __call__(self, s, done, a) -> np.array:
         one_hot = np.zeros(self.feature_vector_length)
         if done:
             return one_hot
-        one_hot[self.find_flat_vector_coord(s, a)] = 1
+        for agent in range(len(s)):
+            agent_coord = s[agent]
+            if -100 in agent_coord:
+                continue
+            index = agent_coord[0] * self.state_dims[2] + agent_coord[1]
+            index += agent * self.state_dims[1] * self.state_dims[2]
+            index *= self.num_actions
+            index += a
+            one_hot[index] = 1
+
         return one_hot
 
-def SarsaLambda(grid_world, gamma, lam, alpha, num_episode):
+def SarsaLambda(grid_world, num_episode, gamma=.9, lam=.8, alpha=.01):
 
-    def epsilon_greedy_policy(s,done,w,epsilon=.0):
+    def epsilon_greedy_policy(s, done, w, X, num_agents, epsilon=.0):
+        """
+        modified to return list of actions
+        """
         nA = grid_world.env_spec.nA
-        Q = [np.dot(w, X(s,done,a)) for a in range(nA)]
-
-        if np.random.rand() < epsilon:
-            return np.random.randint(nA)
-        else:
-            return np.argmax(Q)
+        list_actions = []
+        for n in range(num_agents):
+            Q = [np.dot(w, X(s[n],done,a)) for a in range(nA)]
+            if np.random.rand() < epsilon:
+                list_actions.append(np.random.randint(nA))
+            else:
+                list_actions.append(np.argmax(Q))
 
     # Create x's
     dim_list = grid_world.state_dim_list
-    X_hide = StateActionFeatureVector(dim_list, grid_world.env_spec.nA)
-    X_seek = StateActionFeatureVector(dim_list, grid_world.env_spec.nA)
+    X_h = StateActionFeatureVector(dim_list, grid_world.env_spec.nA)
+    X_s = StateActionFeatureVector(dim_list, grid_world.env_spec.nA)
 
-    dimension = X.feature_vector_len()
-    w = np.zeros(dimension)
+    dimension = X_h.feature_vector_length
+    w_h = np.zeros(dimension)
+    w_s = np.zeros(dimension)
 
     num_hiders = grid_world.numHider
     num_seekers = grid_world.numSeeker
-    G0s_hide = []
-    G0s_seek = []
+    G0_hide = []
+    G0_seek = []
     for episode in range(num_episode):
-        S = grid_world.reset()
+        if episode % 10 == 0:
+            print("\tEpisode", episode)
+        S_h, S_s = grid_world.reset()
         done = False
-        A = epsilon_greedy_policy(S, done, w)
-        x = X(S, done, A)
-        z = np.zeros(dimension)
-        Q_old = 0.
-        
-        # print("episode:", episode)
-        # R = 0
+        A_h = epsilon_greedy_policy(S_h, done, w_h, X_h, num_hiders)
+        A_s = epsilon_greedy_policy(S_s, done, w_s, X_s, num_seekers)
+        x_h = X_h(S_h, done, A_h)
+        x_s = X_s(S_s, done, A_h)
+        z_h = np.zeros(dimension)
+        z_s = np.zeros(dimension)
+        Q_old_h = 0.
+        Q_old_s = 0.
+
+        # G0 stuff
+        R_h = [np.NINF]
+        R_s = [np.NINF]
 
         while True:
-            # env.render()
-            S_new, reward, done, info = env.step(A)
-            A_new = epsilon_greedy_policy(S_new, done, w)
-            x_new = X(S_new, done, A_new)
-            Q = np.dot(w, x)
-            Q_new = np.dot(w, x_new)
-            delta = reward + gamma*Q_new - Q
-            z = gamma * lam * z + (1 - alpha * gamma * lam * np.dot(z, x))*x
-            w += alpha *  (delta + Q - Q_old) * z - alpha *(Q - Q_old) * x
-            Q_old = Q_new
-            x = x_new
-            A = A_new
+            S_new_h, S_new_s, reward_h, reward_s, done = grid_world.step()
+            R_h.append(reward_h)
+            R_s.append(reward_s)
+            A_new_h = epsilon_greedy_policy(S_new_h, done, w_h, X_h, num_hiders)
+            A_new_s = epsilon_greedy_policy(S_new_s, done, w_s, X_s, num_seekers)
+            # TODO: After this line it's not working
+            x_new_h = X_h(S_new_h, done, A_new_h)
+            x_new_s = X_s(S_new_s, done, A_new_s)
+            Q_h = np.dot(w_h, x_h)
+            Q_s = np.dot(w_s, x_s)
+            Q_new_h = np.dot(w_h, x_new_h)
+            Q_new_s = np.dot(w_s, x_new_s)
+            delta_h = reward_h + gamma * Q_new_h - Q_h
+            delta_s = reward_s + gamma * Q_new_s - Q_s
+            z_h = gamma * lam * z_h + (1 - alpha * gamma * lam * np.dot(z_h, x_h))*x_h
+            z_s = gamma * lam * z_s + (1 - alpha * gamma * lam * np.dot(z_s, x_s))*x_s
+            w_h += alpha *  (delta_h + Q_h - Q_old_h) * z_h - alpha *(Q_h - Q_old_h) * x_h
+            w_s += alpha *  (delta_s + Q_s - Q_old_s) * z_s - alpha *(Q_s - Q_old_s) * x_s
+            Q_old_h = Q_new_h
+            Q_old_s = Q_new_s
+            x_h = x_new_h
+            x_s = x_new_s
+            A_h = A_new_h
+            A_s = A_new_s
             if done:
                 break
-    return w
+        T = len(S_h) - 1
+        for t in range(T):
+            G_h = 0
+            G_s = 0
+            for k in range(t + 1, T + 1):
+                G_h += gamma ** (k - t - 1) * R_h[k]
+                G_s += gamma ** (k - t - 1) * R_s[k]
+            if t == T // 2:
+                G0_hide.append(G_h)
+                G0_seek.append(G_s)
+    return G0_hide, G0_seek
 
 # --- Code for running REINFORCE ---
 
@@ -141,14 +176,11 @@ class pi_nn(object):
                  state_dims,
                  num_actions,
                  alpha):
-        """
-        state_dims: the number of dimensions of state space
-        action_dims: the number of possible actions
-        alpha: learning rate
-        """
+        self.state_dims = state_dims
         self.num_actions = num_actions
+        self.state_size = np.prod(state_dims)
         self.network = nn.Sequential(
-            nn.Linear(state_dims, 32), 
+            nn.Linear(self.state_size, 32), 
             nn.ReLU(), 
             nn.Linear(32, 32),
             nn.ReLU(),
@@ -157,7 +189,19 @@ class pi_nn(object):
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = torch.optim.Adam(self.network.parameters(), lr=alpha)
 
+    def convert_one_hot(self, s):
+        one_hot = np.zeros(self.state_size)
+        for a in range(len(s)):
+            agent_coord = s[a]
+            if -100 in agent_coord:
+                continue
+            index = agent_coord[0] * self.state_dims[2] + agent_coord[1]
+            index += a * self.state_dims[1] * self.state_dims[2]
+            one_hot[index] = 1
+        return one_hot
+
     def __call__(self,s) -> int:
+        s = self.convert_one_hot(s)
         prods = self.network(torch.FloatTensor(s)).detach().numpy()
         action = np.random.choice(range(self.num_actions), p=prods)
         return action
@@ -170,6 +214,7 @@ class pi_nn(object):
         delta: G-v(S_t,w)
         """
         self.optimizer.zero_grad()
+        s = self.convert_one_hot(s)
         output = self.network(torch.FloatTensor(s)).view(1, -1)
         target = torch.tensor([a])
         loss = gamma_t * delta * self.criterion(output, target)
@@ -196,8 +241,10 @@ class v_nn(Baseline):
         state_dims: the number of dimensions of state space
         alpha: learning rate
         """
+        self.state_dims = state_dims
+        self.state_size = np.prod(state_dims)
         self.network = nn.Sequential(
-            nn.Linear(state_dims, 32), 
+            nn.Linear(self.state_size, 32), 
             nn.ReLU(), 
             nn.Linear(32, 32),
             nn.ReLU(),
@@ -205,11 +252,24 @@ class v_nn(Baseline):
         self.criterion = nn.MSELoss()
         self.optimizer = torch.optim.Adam(self.network.parameters(), lr=alpha)
 
+    def convert_one_hot(self, s):
+        one_hot = np.zeros(self.state_size)
+        for a in range(len(s)):
+            agent_coord = s[a]
+            if -100 in agent_coord:
+                continue
+            index = agent_coord[0] * self.state_dims[2] + agent_coord[1]
+            index += a * self.state_dims[1] * self.state_dims[2]
+            one_hot[index] = 1
+        return one_hot
+
     def __call__(self,s) -> float:
+        s = self.convert_one_hot(s)
         return self.network(torch.FloatTensor(s))
 
     def update(self,s,G):
         self.optimizer.zero_grad()
+        s = self.convert_one_hot(s)
         output = self.network(torch.FloatTensor(s))
         loss = self.criterion(output, torch.FloatTensor([G]))
         loss.backward()
@@ -222,7 +282,7 @@ def REINFORCE(grid_world, num_episodes, gamma=.9):
     """
     # TODO: modify for gridworld
     
-    state_dim = grid_world.state_dim
+    state_dim = grid_world.state_dim_list
     num_actions = grid_world.env_spec.nA
     alpha = 3e-4
     pi_hide = pi_nn(state_dim, num_actions, alpha)
@@ -278,6 +338,150 @@ def REINFORCE(grid_world, num_episodes, gamma=.9):
                 delta_s = G_s - v_seek(S_s[t][s])
                 v_seek.update(S_s[t][s], G_s)
                 pi_seek.update(S_s[t][s], A_s[t][s], gamma ** t, delta_s)
+            # if t == 0:
+            if t == T // 2:
+                G0_hide.append(G_h)
+                G0_seek.append(G_s)
+    return G0_hide, G0_seek
+
+# -- Code for running Actor-Critic
+
+class actor_nn(nn.Module):
+    def __init__(self, state_dims, num_actions, alpha):
+        self.state_dims = state_dims
+        self.num_actions = num_actions
+        self.state_size = np.prod(state_dims)
+        self.network = nn.Sequential(
+            nn.Linear(self.state_size, 32), 
+            nn.ReLU(), 
+            nn.Linear(32, 32),
+            nn.ReLU(),
+            nn.Linear(32, num_actions),
+            nn.Softmax(dim=-1))
+        self.criterion = nn.CrossEntropyLoss()
+        self.optimizer = torch.optim.Adam(self.network.parameters(), lr=alpha)
+
+    def convert_one_hot(self, s):
+        one_hot = np.zeros(self.state_size)
+        for a in range(len(s)):
+            agent_coord = s[a]
+            if -100 in agent_coord:
+                continue
+            index = agent_coord[0] * self.state_dims[2] + agent_coord[1]
+            index += a * self.state_dims[1] * self.state_dims[2]
+            one_hot[index] = 1
+        return one_hot
+
+    def __call__(self,s) -> int:
+        s = self.convert_one_hot(s)
+        prods = self.network(torch.FloatTensor(s)).detach().numpy()
+        action = np.random.choice(range(self.num_actions), p=prods)
+        return action
+
+    def update(self, s, a, gamma_t, delta):
+        self.optimizer.zero_grad()
+        s = self.convert_one_hot(s)
+        output = self.network(torch.FloatTensor(s)).view(1, -1)
+        target = torch.tensor([a])
+        loss = gamma_t * delta * self.criterion(output, target)
+        loss.backward()
+        self.optimizer.step()
+        return None
+
+class critic_nn(Baseline):
+    def __init__(self, state_dims, alpha):
+        self.state_dims = state_dims
+        self.state_size = np.prod(state_dims)
+        self.network = nn.Sequential(
+            nn.Linear(self.state_size, 32), 
+            nn.ReLU(), 
+            nn.Linear(32, 32),
+            nn.ReLU(),
+            nn.Linear(32, 1))
+        self.criterion = nn.MSELoss()
+        self.optimizer = torch.optim.Adam(self.network.parameters(), lr=alpha)
+
+    def convert_one_hot(self, s):
+        one_hot = np.zeros(self.state_size)
+        for a in range(len(s)):
+            agent_coord = s[a]
+            if -100 in agent_coord:
+                continue
+            index = agent_coord[0] * self.state_dims[2] + agent_coord[1]
+            index += a * self.state_dims[1] * self.state_dims[2]
+            one_hot[index] = 1
+        return one_hot
+
+    def __call__(self,s) -> float:
+        s = self.convert_one_hot(s)
+        return self.network(torch.FloatTensor(s))
+
+    def update(self, s, delta):
+        self.optimizer.zero_grad()
+        s = self.convert_one_hot(s)
+        output = self.network(torch.FloatTensor(s))
+        loss = self.criterion(output, torch.FloatTensor([delta]))
+        loss.backward()
+        self.optimizer.step()
+        return None
+
+def actor_critic(grid_world, num_episodes, gamma=.9):
+    alpha = 3e-4
+    state_dim = grid_world.state_dim_list
+    num_actions = grid_world.env_spec.nA
+    actor_hide = pi_nn(state_dim, num_actions, alpha)
+    actor_seek = pi_nn(state_dim, num_actions, alpha)
+    critic_hide = v_nn(state_dim, alpha)
+    critic_seek = v_nn(state_dim, alpha)
+    num_hiders = grid_world.numHider
+    num_seekers = grid_world.numSeeker
+    G0_hide = []
+    G0_seek = []
+
+    for episode in range(num_episodes):
+        gamma_t = 1
+        if episode % 10 == 0:
+            print("\tEpisode", episode)
+        old_h_state, old_s_state = grid_world.reset()
+        R_h = [np.NINF] # Padding for index adjustment
+        R_s = [np.NINF] # Padding for index adjustment
+
+        # Generate an episode
+        while True:
+            h_actions = []
+            for h in range(num_hiders):
+                h_actions.append(actor_hide(old_h_state[h]))
+            s_actions = []
+            for s in range(num_seekers):
+                s_actions.append(actor_seek(old_s_state[s]))
+            ### DEBUG ###
+            if episode % 50 == 0:
+                grid_world.save_world("data/ac_two_walls.txt", episode)
+            h_state, s_state, reward_h, reward_s, done = grid_world.step(h_actions, s_actions)
+            R_h.append(reward_h)
+            R_s.append(reward_s)
+            for h in range(num_hiders):
+                delta_h = reward_h + gamma * critic_hide(h_state[h]) - critic_hide(old_h_state[h])
+                critic_hide.update(old_h_state[h], delta_h)
+                actor_hide.update(old_h_state[s], h_actions[h], gamma_t, delta_h)
+            for s in range(num_seekers):
+                delta_s = reward_s + gamma * critic_seek(s_state[s]) - critic_seek(old_s_state[s])
+                critic_seek.update(old_s_state[s], delta_s)
+                actor_seek.update(old_s_state[s], s_actions[s], gamma_t, delta_s)
+            # swap states
+            old_h_state = h_state
+            old_s_state = s_state
+            gamma_t *= gamma
+            if done:
+                break
+
+        T = len(R_h) - 1
+        for t in range(T):
+            G_h = 0
+            G_s = 0
+            for k in range(t+1, T+1):
+                G_h += gamma ** (k - t - 1) * R_h[k]
+                G_s += gamma ** (k - t - 1) * R_s[k]
             # if t == 0:
             if t == T // 2:
                 G0_hide.append(G_h)
