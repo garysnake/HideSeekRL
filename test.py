@@ -1,14 +1,17 @@
 import numpy as np
 from gridworld import GridWorld_hybrid_state, GridWorld_coord, GridWorld_diag
 from train import random_baseline, REINFORCE, SarsaLambda, actor_critic
+from ppo import train_ppo
+
 from matplotlib import pyplot as plt
 import sys
 
-algorithm_list = ["random", "reinforce", "actor_critic"]
+algorithm_list = ["random", "reinforce", "actor_critic", "ppo"]
 algorithm_dict = {}
 algorithm_dict["random"] = random_baseline
 algorithm_dict["reinforce"] = REINFORCE
 algorithm_dict["actor_critic"] = actor_critic
+algorithm_dict["ppo"] = train_ppo
 
 wall_list = ["none", "two_walls", "cross"]
 
