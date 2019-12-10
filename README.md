@@ -22,46 +22,48 @@ python3 compare_data.py data/reinforce_none_1-1.txt,data/actor_critic_none_1-1.t
 
 =================== Behavior Analysis =========================
 
-1 v 2 
-*
-python3 visualize.py WorldData/ac_none_1-2.txt 
-Seeker find corner, but Hiders avoid seeker's corner, mixed result
-*
-python3 visualize.py WorldData/ac_two_walls_1-2.txt 
-Hider stay behind a corner , seekers take some time to find out and learn the new policy
+1 v 2
+    None
+        * AC
+        python3 visualize.py WorldData/ac_none_1-2.txt 
+        Seeker find corner, but Hiders avoid seeker's corner, mixed result
+
+        * PPO
+        python3 visualize.py WorldData/ppo_none_1-2.txt
+        seekers able to keep exploring with both agents highest reward
+
+    2Walls
+        * REINFORCE
+        python3 visualize.py WorldData/ac_two_walls_1-2.txt 950
+        Converge to exploit corners, seekers also decide to stay at corner
+
+        * PPO
+        python3 visualize.py WorldData/ppo_two_walls_1-2.txt 250 & 750
+        Seekers knows how to corner, but hiders also know how to switch behind walls
 
 
 
-1 v 1 
-python3 visualize.py WorldData/ac_none_1-1.txt 
-Hiders sticks at corner, that's why hider win
+2 v 1
+    None
+        * AC
+        python3 visualize.py WorldData/ac_none_2-1.txt
+        hiders both stay at one corner, and seeker learn about corner each time
+
+        * PPO
+         python3 visualize.py WorldData/ppo_none_1-2.txt
+         Seekers quickly split up to find different corner hider always splitting, seeker win
+
+    2Walls
+        * REINFORCE
+        python3 visualize.py WorldData/reinforce_two_walls_2-1.txt 500
+        Hiders know how to stay in corner, and seeker has a hard time finding them, seekers try to stay at corner
+    
+        * PPO
+        python3 visualize.py WorldData/ppo_two_walls_2-1.txt 500
+        Seekers quickly find place, each hiders want to avoid seeker, but more movement cause them to be easily spotted
 
 
-*
-python3 visualize.py WorldData/ac_two_walls_1-1.txt
-Hider Finds spot to stay to hide 
 
-
-
-python3 visualize.py WorldData/ac_two_walls_2-1.txt 
-Hider stays at each according corner, hiders have a slight more avantage
-
-PPO - NONE
-
-
-
-
-
-
-Hiders stick at corner, seekers stick at corner
-python3 visualize.py WorldData/reinforce_two_walls_2-1.txt
-
-Hiders hide behind walls
-python3 visualize.py WorldData/ppo_two_walls_1-1.txt 350
-
-Seekers Cornering Hiders, Hiders hide behind walls
-python3 visualize.py WorldData/ppo_two_walls_1-2.txt 200
-900
 
 
 
