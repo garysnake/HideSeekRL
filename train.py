@@ -457,14 +457,14 @@ def actor_critic(grid_world, num_episodes, gamma=.9):
                 s_actions.append(actor_seek(old_s_state[s]))
             ### DEBUG ###
             if episode % 50 == 0:
-                grid_world.save_world("data/ac_big_walls.txt", episode)
+                grid_world.save_world("data/ac_none" + "_%d-%d" % (num_hiders, num_seekers) + ".txt", episode)
             h_state, s_state, reward_h, reward_s, done = grid_world.step(h_actions, s_actions)
             R_h.append(reward_h)
             R_s.append(reward_s)
             for h in range(num_hiders):
                 delta_h = reward_h + gamma * critic_hide(h_state[h]) - critic_hide(old_h_state[h])
                 critic_hide.update(old_h_state[h], delta_h)
-                actor_hide.update(old_h_state[s], h_actions[h], gamma_t, delta_h)
+                actor_hide.update(old_h_state[h], h_actions[h], gamma_t, delta_h)
             for s in range(num_seekers):
                 delta_s = reward_s + gamma * critic_seek(s_state[s]) - critic_seek(old_s_state[s])
                 critic_seek.update(old_s_state[s], delta_s)

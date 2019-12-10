@@ -219,7 +219,7 @@ def train_ppo(grid_world, num_episodes, gamma=.9):
                 
             ### Produce Behavior Trace ###
             if episode % 50 == 0:
-                grid_world.save_world("data/ac_big_walls.txt", episode)
+                grid_world.save_world("data/ppo_big_wall" + "_%d-%d" % (num_hiders, num_seekers) + ".txt", episode)
             
             h_state, s_state, reward_h, reward_s, done = grid_world.step(h_actions, s_actions)
             R_h.append(reward_h)
