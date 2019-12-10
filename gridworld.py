@@ -3,8 +3,9 @@ from env import EnvSpec, Env
 from enum import Enum
 
 class GridWorld_diag(Env):
-    def __init__(self, numX, numY, numHider, numSeeker, hideVis, seekVis, eps_len, gamma=0.9):
+    def __init__(self, numX, numY, numHider, numSeeker, hideVis, seekVis, eps_len, wall_type, gamma=0.9):
         self.num_agents = numHider + numSeeker
+        self.wall_type = wall_type
         self.env_spec = EnvSpec(self.num_agents * numX * numY, 9, gamma)
         self.eps_len = eps_len
         self.step_count = 0
@@ -85,8 +86,12 @@ class GridWorld_diag(Env):
                 else:
                     self.world[i][j] = 0
         # Extra walls
-        # wall_list = [[4,4], [6,6]]
-        wall_list = [[3,3],[4,3],[5,3],[6,3],[8,8],[7,8],[6,8],[5,8]]
+        if self.wall_type == "none":
+            wall_list = []
+        if self.wall_type == "two_walls":
+            wall_list = [[3,3],[4,3],[5,3],[6,3],[8,8],[7,8],[6,8],[5,8]]
+        if self.wall_type == "cross":
+            wall_list = []
         for wall in wall_list:
             self.world[tuple(wall)] = 1
         def get_rand_coord():
@@ -188,13 +193,14 @@ class GridWorld_diag(Env):
         upperBound = min(y_coord+vis+1, world.shape[1])
         lowerBound = max(y_coord-vis-1, -1)
 
+        cross_mask = 1337
         # invert cross indices to not mess up quadrant calculations
         for x in range(leftBound, rightBound):
             if world[x][y_coord] == 1:
-                world[x][y_coord] = 420
+                world[x][y_coord] = cross_mask
         for y in range(lowerBound, upperBound):
             if world[x_coord][y] == 1:
-                world[x_coord][y] = 420
+                world[x_coord][y] = cross_mask
 
         for x in range(x_coord+1, rightBound): # Upper right
             for y in range(y_coord+1, upperBound):
@@ -214,10 +220,10 @@ class GridWorld_diag(Env):
                     world[x][y] = 4
         # re-invert cross indices to do cross vision
         for x in range(leftBound, rightBound):
-            if world[x][y_coord] == 420:
+            if world[x][y_coord] == cross_mask:
                 world[x][y_coord] = 1
         for y in range(lowerBound, upperBound):
-            if world[x_coord][y] == 420:
+            if world[x_coord][y] == cross_mask:
                 world[x_coord][y] = 1
         for x in range(x_coord - 1, leftBound, -1): # Horizontal cross left
             if isShadow(x + 1, y_coord):

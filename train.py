@@ -51,8 +51,7 @@ def random_baseline(grid_world, num_episodes):
         # Calculate and append the monte carlo return at t_0
         G_hide = 0
         G_seek = 0
-        # for k in range(1, T + 1):
-        for k in range(T // 2, T + 1):
+        for k in range(1, T + 1):
             G_hide += grid_world.env_spec.gamma ** (k) * hider_rewards[k]
             G_seek += grid_world.env_spec.gamma ** (k) * seeker_rewards[k]
         G0s_hide.append(G_hide)
@@ -164,7 +163,7 @@ def SarsaLambda(grid_world, num_episode, gamma=.9, lam=.8, alpha=.01):
             for k in range(t + 1, T + 1):
                 G_h += gamma ** (k - t - 1) * R_h[k]
                 G_s += gamma ** (k - t - 1) * R_s[k]
-            if t == T // 2:
+            if t == 0:
                 G0_hide.append(G_h)
                 G0_seek.append(G_s)
     return G0_hide, G0_seek
@@ -341,8 +340,7 @@ def REINFORCE(grid_world, num_episodes, gamma=.9):
                 delta_s = G_s - v_seek(S_s[t][s])
                 v_seek.update(S_s[t][s], G_s)
                 pi_seek.update(S_s[t][s], A_s[t][s], gamma ** t, delta_s)
-            # if t == 0:
-            if t == T // 2:
+            if t == 0:
                 G0_hide.append(G_h)
                 G0_seek.append(G_s)
     return G0_hide, G0_seek
@@ -485,8 +483,7 @@ def actor_critic(grid_world, num_episodes, gamma=.9):
             for k in range(t+1, T+1):
                 G_h += gamma ** (k - t - 1) * R_h[k]
                 G_s += gamma ** (k - t - 1) * R_s[k]
-            # if t == 0:
-            if t == T // 2:
+            if t == 0:
                 G0_hide.append(G_h)
                 G0_seek.append(G_s)
     return G0_hide, G0_seek
