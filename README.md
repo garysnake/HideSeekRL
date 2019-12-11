@@ -26,7 +26,7 @@ python3 compare_data.py data/reinforce_none_1-1.txt,data/actor_critic_none_1-1.t
     None
         * AC
         python3 visualize.py WorldData/ac_none_1-2.txt 
-        Seeker find corner, but Hiders avoid seeker's corner, mixed result
+        Seeker find hiders at corner, but Hiders avoid seeker's to another corner, mixed result
 
         * PPO
         python3 visualize.py WorldData/ppo_none_1-2.txt
@@ -50,8 +50,8 @@ python3 compare_data.py data/reinforce_none_1-1.txt,data/actor_critic_none_1-1.t
         hiders both stay at one corner, and seeker learn about corner each time
 
         * PPO
-         python3 visualize.py WorldData/ppo_none_1-2.txt
-         Seekers quickly split up to find different corner hider always splitting, seeker win
+         python3 visualize.py WorldData/ppo_none_2-1.txt
+         Seekers find different corner hider always splitting, seeker win
 
     2Walls
         * REINFORCE
