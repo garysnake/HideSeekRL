@@ -4,21 +4,6 @@ import torch.nn as nn
 from torch.distributions import Categorical
 
 
-class Memory:
-    def __init__(self):
-        self.actions = []
-        self.states = []
-        self.logprobs = []
-        self.rewards = []
-        self.is_terminals = []
-    
-    def clear_memory(self):
-        del self.actions[:]
-        del self.states[:]
-        del self.logprobs[:]
-        del self.rewards[:]
-        del self.is_terminals[:]
-
 class ActorCritic(nn.Module):
     def __init__(self, state_dim_list, state_dim, action_dim, n_latent_var):
         super(ActorCritic, self).__init__()
